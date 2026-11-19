@@ -61,9 +61,8 @@ Common Password Detection:
 Common / Predictable Password: NO
 ```
 
-## Security Considerations and Limitations
+## Security Considerations 
 
-- Common password detection uses exact, case-sensitive matching against the local wordlist.
 - A password not found in the wordlist is not necessarily secure.
 
 
