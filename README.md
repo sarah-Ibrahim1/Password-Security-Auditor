@@ -65,7 +65,6 @@ Common / Predictable Password: NO
 
 - Common password detection uses exact, case-sensitive matching against the local wordlist.
 - A password not found in the wordlist is not necessarily secure.
-- This tool provides a basic educational assessment, not a complete password security evaluation.
 
 
 ## Password Wordlist
