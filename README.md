@@ -63,6 +63,7 @@ Common / Predictable Password: NO
 
 ## Security Considerations 
 
+- Common password detection uses case-insensitive matching against the local wordlist.
 - A password not found in the wordlist is not necessarily secure.
 
 
