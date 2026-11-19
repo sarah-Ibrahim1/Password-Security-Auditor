@@ -22,7 +22,7 @@ def check_password_complexity(password):
 
 
 def check_common_password(password, common_passwords):
-    return password in common_passwords
+    return password.lower() in {p.lower() for p in common_passwords}
 
 
 # Load common passwords
